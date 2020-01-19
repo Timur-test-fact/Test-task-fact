@@ -1,20 +1,68 @@
-a.button16 {
-  display: inline-block;
-  text-decoration: none;
-  padding: 1em;
-  outline: none;
-  border-radius: 1px;
+html {
+	margin-left: 1%;
+	margin-top: 1%;
 }
-a.button16:hover {
-  background-image:
-   radial-gradient(1px 45% at 0% 50%, rgba(0,0,0,.6), transparent),
-   radial-gradient(1px 45% at 100% 50%, rgba(0,0,0,.6), transparent); 
+
+.style{
+    width:510px;
 }
-a.button16:active {
-  background-image:
-   radial-gradient(45% 45% at 50% 100%, rgba(255,255,255,.9), rgba(255,255,255,0)),
-   linear-gradient(rgba(255,255,255,.4), rgba(255,255,255,.3));
-  box-shadow:
-   inset rgba(162,95,42,.4) 0 0 0 1px,
-   inset rgba(255,255,255,.9) 0 0 1px 3px;
+
+button.width {
+  width: 210px;
+  background-color: #4CAF50;
+  font-size: 16px;
+  cursor: pointer;
+  text-align: center;
 }
+
+.button {
+    border-radius:10px;
+    -moz-border-radius:10px;
+    -khtml-border-radius:10px;
+    -webkit-border-radius: 10px;
+    padding-right:20px;
+
+    position:relative;
+}
+.button a, .button em{
+    background-image:url('css/images/button.png');
+    background-repeat:no-repeat;
+}
+.button a{
+    display:block;
+    height:52px;
+    line-height:52px;
+ 
+    outline:none;
+    color:#333;
+    font-size:18px;
+    text-indent:20px;
+    text-decoration:none;  
+    text-align:center;
+    text-shadow: #333 0px -1px 0px;   
+}
+.button em{
+    display:block;         
+    position:absolute;
+    background-position:100% 0;
+    width:20px;
+    height:52px;
+    top:0px;
+    right:0px;
+}
+.button.green a,
+.button.black a,
+.button.red a
+{
+    color:#fff;
+}
+.button.green { background-color:#009e0f }
+.button.green:hover{ background-color:#068612 }
+.button.white{ background-color:#f0f0f0 }
+.button.white:hover{ background-color:#c0c0c0 }
+.button.black{ background-color:#000 }
+.button.black:hover{ background-color:#333 }
+.button.orange{ background-color:#ff7800 }
+.button.orange:hover{ background-color:#c60 }
+.button.red{ background-color:#f00 }
+.button.red:hover{ background-color:#c00 }
