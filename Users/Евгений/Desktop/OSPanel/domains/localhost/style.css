@@ -1,0 +1,68 @@
+html {
+	margin-left: 1%;
+	margin-top: 1%;
+}
+
+.style{
+    width:510px;
+}
+
+button.width {
+  width: 210px;
+  background-color: #4CAF50;
+  font-size: 16px;
+  cursor: pointer;
+  text-align: center;
+}
+
+.button {
+    border-radius:10px;
+    -moz-border-radius:10px;
+    -khtml-border-radius:10px;
+    -webkit-border-radius: 10px;
+    padding-right:20px;
+
+    position:relative;
+}
+.button a, .button em{
+    background-image:url('css/images/button.png');
+    background-repeat:no-repeat;
+}
+.button a{
+    display:block;
+    height:52px;
+    line-height:52px;
+ 
+    outline:none;
+    color:#333;
+    font-size:18px;
+    text-indent:20px;
+    text-decoration:none;  
+    text-align:center;
+    text-shadow: #333 0px -1px 0px;   
+}
+.button em{
+    display:block;         
+    position:absolute;
+    background-position:100% 0;
+    width:20px;
+    height:52px;
+    top:0px;
+    right:0px;
+}
+.button.green a,
+.button.black a,
+.button.red a
+{
+    color:#fff;
+}
+.button.green { background-color:#009e0f }
+.button.green:hover{ background-color:#068612 }
+.button.white{ background-color:#f0f0f0 }
+.button.white:hover{ background-color:#c0c0c0 }
+.button.black{ background-color:#000 }
+.button.black:hover{ background-color:#333 }
+.button.orange{ background-color:#ff7800 }
+.button.orange:hover{ background-color:#c60 }
+.button.red{ background-color:#f00 }
+.button.red:hover{ background-color:#c00 }
